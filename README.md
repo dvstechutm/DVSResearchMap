@@ -1,2 +1,3 @@
-# DVSResearchMap
+# Maps
+DVS Research Map
 
