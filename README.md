@@ -1,3 +1,0 @@
-# Maps
-DVS Research Map
-
