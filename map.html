@@ -105,6 +105,13 @@ let template3 = `
  
 <a href="https://www.utm.utoronto.ca/dvs/people/brian-price" target='_blank'>Visit Dr. Brian Price's profile</a>
     </p>
+
+<img width="150" height="150" src="images/MarseilleEarlyChristianBaptistery.jpg">
+<p>5th century baptistery, Marseille, Cathedral of Sainte-Marie-Majeure</br>
+ 
+<a href="https://www.utm.utoronto.ca/dvs/people/harriet-sonne-de-torrens" target='_blank'>Visit Dr. Harriet M. Sonne de Torrens's profile</a>
+    </p>
+
 </div>
 `
 // Add popup message
@@ -509,7 +516,8 @@ let template27 = `
 
 <h3>Fieldwork in Stånga, Gotland</h3>
 <div>
- <img width="150" height="150" src="images/Pia_bautismal_Stanga_Harriet400x600.jpg">
+ <img width="150" height="150" src="images/Pía_bautismal_Stanga_Harriet400x600.jpg">
+ 
 <p>
 <h3>Lectures, exhibitions, conferences, workshops in Visby, Gotland</h3>
  
@@ -636,6 +644,19 @@ let template37 = `
 <a href="https://www.utm.utoronto.ca/dvs/people/jill-caskey" target='_blank'>Visit Dr. Jill Caskey's profile</a>
  </div>
 	`
+
+let template38 = `
+
+<h3>Fieldwork in Aix-en-Provence</h3>
+<div>
+ <img width="150" height="150" src="images/baptistery-Aix-en-Provence.jpg"></br>
+ 6th century baptistery, Aix-en-Provence, Cathedral of Saint-Sauveur</br>
+ 
+  
+<a href="https://www.utm.utoronto.ca/dvs/people/harriet-sonne-de-torrens" target='_blank'>Visit Dr. Harriet M. Sonne de Torrens's profile</a>
+ </div>
+	`
+
 const marker = L.marker([55.462599126101374, 13.749806880955454]).addTo(map);
 	 marker.bindPopup(template);
 	 
@@ -755,8 +776,12 @@ const marker = L.marker([55.462599126101374, 13.749806880955454]).addTo(map);
 	  	const marker37 = L.marker([43.5483, -79.6627]).addTo(map);
 	 marker37.bindPopup(template37);
 	 
+	   	const marker38 = L.marker([43.3155, 5.2650]).addTo(map);
+	 marker38.bindPopup(template38);
+	 
 	</script>
 
 </body>
 	</html>
+
 
